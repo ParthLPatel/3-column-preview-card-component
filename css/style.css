@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.card-container {
+  padding: 1.5em 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-heading {
+  color: #f2f2f2;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 2.5rem;
+  font-family: 'Big Shoulders Display', cursive;
+  text-transform: uppercase;
+}
+
+.card-description {
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.5;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.card-btn {
+  font-family: 'Lexend Deca', sans-serif;
+  border-radius: 20px;
+  padding: 0.5em 1em;
+  background-color: #f2f2f2;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.card-btn:hover {
+  border: 1px solid #f2f2f2;
+  color: #f2f2f2;
+}
+
+.card-sedans {
+  background-color: #e38826;
+  padding: 2.5em 2.5em;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-sedans button {
+  color: #e38826;
+}
+
+.card-sedans button:hover {
+  background-color: #e38826;
+}
+
+.card-suvs {
+  background-color: #006970;
+  padding: 2.5em 2.5em;
+}
+
+.card-suvs button {
+  color: #006970;
+}
+
+.card-suvs button:hover {
+  background-color: #006970;
+}
+
+.card-luxury {
+  background-color: #004241;
+  padding: 2.5em 2.5em;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card-luxury button {
+  color: #004241;
+}
+
+.card-luxury button:hover {
+  background-color: #004241;
+}
+
+@media screen and (min-width: 1000px) {
+  .card-container {
+    flex-direction: row;
+    margin: 2em 6em;
+  }
+  .card-description {
+    font-size: 1.1rem;
+  }
+  .card-btn {
+    font-size: 1.1rem;
+    margin-top: 4em;
+    margin-bottom: 0.5em;
+  }
+  .card-sedans {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+  }
+  .card-luxury {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+}
+
+.attribution {
+  text-align: center;
+  font-size: 1.2rem;
+  color: darkslateblue;
+  font-family: 'Courier New', Courier, monospace;
+}
