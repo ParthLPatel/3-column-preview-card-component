@@ -89,7 +89,7 @@ body {
 @media screen and (min-width: 1000px) {
   .card-container {
     flex-direction: row;
-    margin: 3em 11em;
+    margin: 3em 6em;
   }
   .card-description {
     font-size: 1.1rem;
